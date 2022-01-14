@@ -19,8 +19,19 @@ This repository is forked from the [Circuitrocks@Learn](https://learn.circuit.ro
 
 The source code for PlatformIO is in the _**src**_ subfolder. There you can also set your credentials for the network.
 
+# Configuration & Build
+First you should configure your Wifi credentials. This can bea easily done in src/wifikeys.h.
+After this, compile and upload your code.
+
 ## Compiling with PlatformIO
 Just open the folder containing the files with PlatformIO and adjust your settings in platformio.ini. Required libraries are either automatically installed (OneButton) or in the lib folder (Micro-RTSP).
+
+## Useful links
+
+* [Octoprint Forum Post](https://community.octoprint.org/t/octoprint-with-esp32-with-camera/6996/20)
+* [Tutorial Blog Post](https://randomnerdtutorials.com/esp32-cam-take-photo-display-web-server/)
+* [Platform IO ESP32-CAM Board Info Page](https://docs.platformio.org/en/latest/boards/espressif32/esp32cam.html)
+* [PlatformIO Thread on Serial Port Issues](https://community.platformio.org/t/solved-esp32-serial-monitor-not-working/2858/6)
 
 
 
