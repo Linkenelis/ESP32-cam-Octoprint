@@ -58,16 +58,16 @@ void setup()
 	Serial.print("Browser Stream Link: http://");
 	Serial.print(ip);
 	Serial.println(":81/stream\n");
-	Serial.print("Browser Single Picture Link: http//");
+	Serial.print("Browser Single Picture Link: http://");
 	Serial.print(ip);
 	Serial.println("/jpg\n");
-	Serial.print("Switch LED ON: http//");
+	Serial.print("Switch LED ON: http://");
 	Serial.print(ip);
 	Serial.println("/ledon\n");
-	Serial.print("Switch LED OFF: http//");
+	Serial.print("Switch LED OFF: http://");
 	Serial.print(ip);
 	Serial.println("/ledoff\n");
-	Serial.print("Start OTA: http//");
+	Serial.print("Start OTA: http://");
 	Serial.print(ip);
 	Serial.println("/start_ota\n");
 #endif
